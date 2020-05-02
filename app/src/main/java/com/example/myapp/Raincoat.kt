@@ -4,9 +4,6 @@ class Raincoat <T : EventType> : AnalyticsType<T> {
 
     private var providers = arrayListOf<ProviderType>()
 
-    init {
-    }
-
     override fun register(provider: ProviderType) {
         this.providers.add(provider)
     }
