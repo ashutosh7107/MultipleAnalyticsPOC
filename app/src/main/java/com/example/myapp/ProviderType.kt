@@ -1,4 +1,4 @@
-package com.example.myapp.interfaces
+package com.example.myapp
 
 import java.lang.reflect.Method
 
