@@ -16,7 +16,7 @@ class AnalyticsActivity : AppCompatActivity() {
         setContentView(R.layout.activity_analytics)
 
         analytics.register(FirebaseProvider(this))
-        //analytics.register(LocalyticsProvider(this, ))
+        //analytics.register(LocalyticsProvider(this, "localytics_app_key"))
         analytics.log(MyEvent.SignUp("username"))
 
 
