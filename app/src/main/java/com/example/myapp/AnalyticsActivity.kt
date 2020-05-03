@@ -17,6 +17,8 @@ class AnalyticsActivity : AppCompatActivity() {
 
         analytics.register(FirebaseProvider(this))
         //analytics.register(LocalyticsProvider(this, ))
+        analytics.log(MyEvent.SignUp("username"))
+
 
         btn1.setOnClickListener(View.OnClickListener {
             val intent = Intent(applicationContext, SecondActivity::class.java)

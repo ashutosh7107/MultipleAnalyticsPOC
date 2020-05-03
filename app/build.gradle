@@ -36,6 +36,7 @@ dependencies {
     implementation 'com.segment.analytics.android.integrations:flurry:4.0.0'
 
     /*dependencies for Localytics*/
+    //noinspection GradleDynamicVersion
     implementation 'com.localytics.android:library:6.0+'
     implementation 'com.android.installreferrer:installreferrer:1.1.2'
 }
