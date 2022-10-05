@@ -72,3 +72,9 @@ jobs:
       uses: github/codeql-action/analyze@v2
       with:
         category: "/language:${{matrix.language}}"
+  
+    - name: Archive Results
+      uses: actions/upload-artifact@v3
+      with:
+        name: Results
+        path: /home/runner/work/_temp/codeql_databases/java.zip
